@@ -1,0 +1,10 @@
+START , M2 , Thu Feb 27 15:42:13 CST 2014
+
+[2
+Sit_to_stand   /B, 
+Stand_to_sit   /B, 
+]
+Sit_to_lie   /B, 
+Lie_to_sit   /B, 
+STOP!  * 0:0{Right Ankle, Waist, Right Arm, Right Wrist, Left Thigh, Right Thigh, }  <Acc X, Acc Y, Acc Z, Gyr X, Gyr Y, Gyr Z, >
+Note:  Use the DataSynthesis tool in the Tools/Matlab Folder.

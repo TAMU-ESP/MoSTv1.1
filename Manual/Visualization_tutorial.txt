@@ -1,0 +1,64 @@
+[Overview]
+
+This tutorial document provides a introduction to the MotionSynthesis Visualization Tool. It covers the general description and manipulation of this tool from package import, display description and function introduction.
+
+MotionSynthesis Visualization is a Matlab-based GUI tool for motion display, observation and annotation.
+
+[Introduction]
+
+Tools is contained in Package 'MotionSynthesis Visualization'. The folder contains:
+
+1\annotations folder: contains generated annotations records files;
+2\html folder: contains publish information for website display;
+3\input folder: contains all the input files for motion display;
+4\video folder: contains subject specific folders containing related avi video files;
+5\tutorial.txt
+6\Visualization.m: main program
+
+[Tutorial]
+
+Following steps shows how to use MotionSynthesis Visualization tool:
+
+1\Prepare the input package. Input package should contains following files:
+	
+  1\ Sequence file. Sequence file is a txt file which contains instructions for motion display. Sequence file contains subject's name and 'sequence' as keyword.
+     In the sequence file, Four types of information is provided. First line is the information line containing trial subject's name and trial time. Second line includes all sensors what is desired to be displayed. Third line contains the keywords of input data. Fourth line is motion list including sequence of motion.
+  2\ Annotations.txt. Annotations file contains boundary data between different motion.
+  3\ text data. Text data files have name containing the keyword which is mentioned in sequence files. Also data specified which motes need to be shown.
+
+2\Make sure Matlab is installed in PC. If so, open Visualization.m to open. It may take a little while to read in all video files
+
+3\After window opens, motion data and video is shown with double triangle indicator is shown at the beginning position. Grey dotted annotations are displayed as well to separate motions apart. 
+
+[Function]
+
+Multiple buttons is located at the bottom side, and a set of hot-key functions are available.
+
+1\ Button Functions:
+  Beginning from left side to the right:
+    1\ Folder button: show main folder 'MotionSynthesis Visualization';
+    2\ Sequence button: show input folder
+    3\ Title Indicator: show introduction information of current trial
+    4\ Sensors button: display and selection for motes available;
+    5\ Modalities button: display and selection for sensors available;
+    6\ Zoom out: press zoom out button in the bottom of GUI
+    7\ Cycle pop-menu: display and selection for annotation colours period
+    8\ Annotation pop-menu: define output annotation file's location
+    9\ Save button: save annotation files into annotation pop-menu defined folder
+    10\ Help button: show this tutorial file
+2\ Hot-key Functions:
+    1\locate frame: left click mouse on data plot;
+	2\add annotation: right click mouse, or left click mouse and press 'space'
+	3\left move 1 frame: click left arrow button on keyboard
+	4\right move 1 frame: click right arrow button on keyboard
+	5\left move 1 data row: click left arrow button with shift button pressed
+	6\right move 1 data row: click right arrow button with shift button pressed
+	7\play video in 1* rate: click upward arrow button
+	8\play video in 1/3* rate: click downward arrow button
+	9\delete annotation: click on 'd' button on keyboard and then, right click mouse, hold firmly, and circle the annotations that needed to be deleted, then release mouse
+	10\zoom in: hold shift and hold left mouse to select the zone that needed to be zoomed in
+	
+[Author]
+Xianan Wang
+University of Texas at Dallas
+Feb,21st,2014

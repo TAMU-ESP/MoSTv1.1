@@ -1,0 +1,24 @@
+%Fields are as follows: start posture, movement name, end posture, can it be durational (Y/N), can it be transitional (Y/N)
+<Sitting , Sit_to_stand , Standing , N , N>
+<Standing , Stand_to_sit , Sitting , N , N>
+<Sitting , Sit_to_lie , Lying , N , N>
+<Lying , Lie_to_sit , Sitting , N , N>
+<Standing , Looking_back_right , Standing , N , N>
+<Standing , Jumping , Standing , N , N>
+<Standing , Grasping_floor , Standing , N , N>
+<Standing , Turning_90 , Standing , N , N>
+<Standing , Grasping_shelf , Standing , N , N>
+<Sitting , Eating , Sitting , N , N>
+<Sitting , Drinking , Sitting , N , N>
+<Standing , Step_forward_backward , Standing , N , N>
+<Standing , Step_left_right , Standing , N , N>
+<Standing , Basic_standing , Standing , Y , N>
+<Sitting , Basic_sitting , Sitting , Y , N>
+<Lying , Basic_lying , Lying , Y , N>
+<Standing , Walking , Standing , Y , N>
+<Sitting , Sitting(1) , Sitting , N , N>
+<Sitting , Sitting(2) , Sitting , N , N>
+<Standing , Standing(1) , Standing , N , N>
+<Standing , Standing(2) , Standing , N , N>
+<Standing , Kneeling , Standing , N , N>
+<Standing , Using_phone , Standing , N , N>

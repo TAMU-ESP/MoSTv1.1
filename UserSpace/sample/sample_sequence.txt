@@ -1,0 +1,9 @@
+M2   Thu Feb 27 15:42:13 CST 2014
+<Acc X, Acc Y, Acc Z, Gyr X, Gyr Y, Gyr Z, >
+sample
+m0001_s05_m19
+m0001_s05_m20
+m0001_s05_m19
+m0001_s05_m20
+m0001_s05_m21
+m0001_s05_m22

@@ -1,0 +1,8 @@
+Female 2
+
+Data Collection Setting 
+   16 bit ADC
+   Measure: Gyro + Accelerometer in 3 dimensions(X,Y,Z)
+   Full-Scale Range                              +/- 2g
+   Sensitivity Scale Factor                      16,384 LSB/g 
+   Sample Rate                                   200 Hz
